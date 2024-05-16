@@ -8,12 +8,12 @@ function App() {
   return (
     <>
         <main className='relative w-full h-screen flex justify-center items-center bg-paleBlue'>
-
-          <section className='w-[450px] gap-5 flex flex-col justify-center items-center bg-white rounded-xl'>
+          <img className='absolute top-0 left-0 right-0 w-full max-sm:hidden' src="/pattern-background-desktop.svg" alt="Bakcground" />
+          <section className='z-10 w-[350px] pb-4 gap-5 flex flex-col justify-center items-center bg-white rounded-xl'>
             
-            <img className='rounded--txl' src="/illustration-hero.svg " alt="Image music" />
+            <img className='rounded-t-xl' src="/illustration-hero.svg " alt="Image music" />
             
-            <div className='px-12 flex flex-col gap-3 justify-center items-center'>
+            <div className='px-8 flex flex-col gap-3 justify-center items-center'>
               
               <h1 className=' text-darkBlue font-bold text-lg'>Order Summary</h1>
               
@@ -30,11 +30,12 @@ function App() {
                   </div>
                 </div>
                 
-                <a className=' text-brightBlue font-semibold underline' href="/">Change</a>
+                <a className=' text-brightBlue font-semibold underline hover:color-brightBlue' href="/">Change</a>
 
               </div>
 
-              
+                <button className='shadow-sm hover:bg-desaturatedBlue shadow-brightBlue mt-5 mb-2 text-center w-full text-white font-bold bg-brightBlue  rounded-lg py-2'>Proceed to Payment</button>
+                <a className='mb-4 font-bold text-desaturatedBlue hover:text-darkBlue' href="#">Cancel Order</a>
             
             </div>
           
