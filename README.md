@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/profile/AymanSdq/solutions]
-- Live Site URL: [https://product-preview-blush.vercel.app/]
+- Live Site URL: [https://order-summary-component-three-chi.vercel.app/]
 
 ## My process
 
