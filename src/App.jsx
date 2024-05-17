@@ -30,11 +30,11 @@ function App() {
                   </div>
                 </div>
                 
-                <a className=' text-brightBlue font-semibold underline hover:color-brightBlue' href="/">Change</a>
+                <a className=' text-brightBlue font-semibold underline' href="/">Change</a>
 
               </div>
 
-                <button className='shadow-sm hover:bg-desaturatedBlue shadow-brightBlue mt-5 mb-2 text-center w-full text-white font-bold bg-brightBlue  rounded-lg py-2'>Proceed to Payment</button>
+                <button className='shadow-sm  shadow-brightBlue mt-5 mb-2 text-center w-full text-white font-bold bg-brightBlue  rounded-lg py-2'>Proceed to Payment</button>
                 <a className='mb-4 font-bold text-desaturatedBlue hover:text-darkBlue' href="#">Cancel Order</a>
             
             </div>
